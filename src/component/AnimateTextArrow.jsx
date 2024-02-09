@@ -15,7 +15,7 @@ const show = {
 
 const AnimateTextArrow = (props) => {
   const { text = "LEARN MORE", onClick } = props;
-  const [onAnimate, setOnAnimate] = useState(true);
+  const [onAnimate, setOnAnimate] = useState(false);
   const [style, setStyle] = useState(show);
   const slate100Width = onAnimate ? "100%" : "100%";
   const whiteWidth = onAnimate ? "100%" : "0%";
@@ -59,7 +59,7 @@ const AnimateTextArrow = (props) => {
       />
       <motion.div
         className="w-full bg-white mt-3 h-1 opacity-100 absolute bottom-0"
-        initial={{ width: whiteWidth }}
+        initial={{ width: "0%" }}
         animate={{ width: whiteWidth, duration: 0.7, delay: 0.7, zIndex: 2 }}
       />
     </div>

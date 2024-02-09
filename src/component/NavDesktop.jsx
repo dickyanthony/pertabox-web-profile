@@ -2,7 +2,7 @@ import "../style/animateSocialMedia.css";
 export default function NavDesktop(props) {
   const { item } = props;
   return (
-    <ul className="hidden containerSocialMedia lg:flex lg:items-center gap-16 text-sm">
+    <ul className="hidden containerSocialMedia lg:flex lg:items-center gap-16 text-base">
       {item.map((x) => {
         const { Icon, onClick, title } = x;
         return (
