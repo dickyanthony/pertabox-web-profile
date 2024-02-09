@@ -13,7 +13,7 @@ const show = {
   },
 };
 
-const AnimateTextArrow = (props) => {
+export default function AnimateTextArrow(props) {
   const { text = "LEARN MORE", onClick } = props;
   const [onAnimate, setOnAnimate] = useState(false);
   const [style, setStyle] = useState(show);
@@ -64,6 +64,4 @@ const AnimateTextArrow = (props) => {
       />
     </div>
   );
-};
-
-export default AnimateTextArrow;
+}

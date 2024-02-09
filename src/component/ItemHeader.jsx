@@ -1,6 +1,6 @@
 import React from "react";
 
-function ItemHeader(props) {
+export default function ItemHeader(props) {
   const { item } = props;
 
   return (
@@ -13,5 +13,3 @@ function ItemHeader(props) {
     </li>
   );
 }
-
-export default ItemHeader;

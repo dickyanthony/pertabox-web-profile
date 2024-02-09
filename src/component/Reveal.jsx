@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { color } from "../utils";
 
-const Reveal = (props) => {
+export default function Reveal(props) {
   const { children, width = "fit-content" } = props;
   const ref = useRef(null);
   const mainControls = useAnimation();
@@ -46,6 +46,4 @@ const Reveal = (props) => {
       />
     </div>
   );
-};
-
-export default Reveal;
+}

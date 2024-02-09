@@ -1,4 +1,5 @@
 import "../style/animateSocialMedia.css";
+
 export default function NavDesktop(props) {
   const { item } = props;
   return (

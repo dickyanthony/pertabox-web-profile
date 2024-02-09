@@ -10,7 +10,7 @@ import {
 } from "react-icons/pi";
 import "./../style/animateSocialMedia.css";
 
-const AnimateSocialMedia = (props) => {
+export default function AnimateSocialMedia(props) {
   const {
     title = "FOLLOW ME",
     className,
@@ -78,6 +78,4 @@ const AnimateSocialMedia = (props) => {
       </div>
     </div>
   );
-};
-
-export default AnimateSocialMedia;
+}

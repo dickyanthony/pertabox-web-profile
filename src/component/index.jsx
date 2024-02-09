@@ -6,6 +6,7 @@ import Reveal from "./Reveal";
 import AnimateSocialMedia from "./AnimateSocialMedia";
 import NavDesktop from "./NavDesktop";
 import NavMobile from "./NavMobie";
+import FloatingWhatsapp from "./FloatingWhatsapp";
 export {
   Title,
   PrimaryTitle,
@@ -16,4 +17,5 @@ export {
   AnimateSocialMedia,
   NavDesktop,
   NavMobile,
+  FloatingWhatsapp,
 };
