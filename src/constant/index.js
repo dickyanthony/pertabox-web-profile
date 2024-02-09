@@ -1,0 +1,3 @@
+import { TITLE, TITLE_ROLE, TITLE_DESC, ABOUT_ME_DESC } from "./Content";
+
+export { TITLE, TITLE_ROLE, TITLE_DESC, ABOUT_ME_DESC };
