@@ -8,7 +8,6 @@ import NavDesktop from "./NavDesktop";
 import NavMobile from "./NavMobie";
 import FloatingWhatsapp from "./FloatingWhatsapp";
 import Map from "./Map";
-import ImageCarousel from "./ImageCarousel";
 
 export {
   Title,
@@ -22,5 +21,4 @@ export {
   NavMobile,
   FloatingWhatsapp,
   Map,
-  ImageCarousel,
 };
