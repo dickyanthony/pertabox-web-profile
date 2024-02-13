@@ -7,7 +7,7 @@ export default function NavDesktop(props) {
       {item.map((x) => {
         const { Icon, onClick, title } = x;
         return (
-          <li className="item">
+          <li className="item hover:cursor-pointer">
             <a
               href={onClick}
               className="flex items-center gap-1 text-slate-100"

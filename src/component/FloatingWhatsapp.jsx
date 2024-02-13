@@ -12,7 +12,7 @@ export default function FloatingWhatsapp() {
       rel="noreferrer"
     >
       <img
-        className="w-7 h-7 md:w-14 md:h-14"
+        className="-rotate-90 w-7 h-7 md:w-14 md:h-14"
         alt="contact-us"
         src={require("../assets/logo/whatsapp-logo.png")}
       />
